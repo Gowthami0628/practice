@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99TestSuite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="day7_practice.Guru99Project">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyLoginToGuru99"/>
+          <include name="verifyTitleOfThePage"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- day7_practice.Guru99Project -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Guru99TestSuite] -->
